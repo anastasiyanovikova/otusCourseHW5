@@ -1,29 +1,33 @@
 #include "Document.h"
 
-/// Функции обработчики GUI
-/// Создание документа при открытии редактора
-
-/// Добавить круг
+/**
+ * @brief drawCircule - Добавить круг
+ */
 void drawCircule(std::shared_ptr<Document> doc, int x, int j, double r)
 {
     doc->createCircle(x, j, r);
 }
-/// Добавить прямоугольник
+
+/**
+ * @brief drawRectangle - Добавить прямоугольник
+ */
 void drawRectangle(std::shared_ptr<Document> doc, int x, int j, double a, double b)
 {
     doc->createRectangle(x, j, a, b);
 }
 
-/// Добавить квадрат
+/**
+ * @brief drawSquare - Добавить квадрат
+ */
 void drawSquare(std::shared_ptr<Document> doc, int x, int j, double a)
 {
     doc->createSquare(x, j, a);
 }
 
+
 /**
  * @brief main - main функция
- *
- * Пример вызова функций
+ * Пример вызова функций GUI
  * @return
  */
 int main(int, char const **)
