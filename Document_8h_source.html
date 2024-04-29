@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Text Edit: Исходный файл Document.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Text Edit<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Text Edit</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Document.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;Figure.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;unordered_set&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classDocument.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classDocument.html">Document</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="classDocument.html#acdbcbe550084e8c20f4f67eb229ad66a">Document</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#a5574b529059aa25bd70f1fab9bddd7bb">importDocument</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#a048d18337dca2bf0772568f8534bc859">exportDocument</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#add86f1086a9773d656c4f796ad88ab9c">addFigure</a>(std::shared_ptr&lt;Figure&gt; new_figure);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#a0245a816ccb5208a20818ec51a74845d">deleteFigure</a>(std::shared_ptr&lt;Figure&gt; figure);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#ac5d0870b046773b3e8231f2228294749">createSquare</a>(<span class="keywordtype">int</span> i, <span class="keywordtype">int</span> j, <span class="keywordtype">double</span> a);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#a5b873f0bde5b1425cf47c24efffc6658">createRectangle</a>(<span class="keywordtype">int</span> i, <span class="keywordtype">int</span> j, <span class="keywordtype">double</span> a, <span class="keywordtype">double</span> b);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#abf59117fcdf74e86ef678d7251634623">createCircle</a>(<span class="keywordtype">int</span> i, <span class="keywordtype">int</span> j, <span class="keywordtype">double</span> r);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#adeb380ea33fd6a83b7a8b9522b7b43bd">setFigureColor</a>(std::shared_ptr&lt;Figure&gt; figure, std::string color);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#abc9605ac5759cc1d11327ba5e03d40fe">setBorderColor</a>(std::shared_ptr&lt;Figure&gt; figure, std::string color);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classDocument.html#abda10b520a97e53125b4362fe08eb58a">setBorderWidth</a>(std::shared_ptr&lt;Figure&gt; figure, <span class="keywordtype">int</span> width);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    std::unordered_set&lt;std::shared_ptr&lt;Figure&gt;&gt; m_addedElements;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
+</div>
+<div class="ttc" id="aclassDocument_html"><div class="ttname"><a href="classDocument.html">Document</a></div><div class="ttdoc">The Document class - Класс редактора</div><div class="ttdef"><b>Definition</b> Document.h:14</div></div>
+<div class="ttc" id="aclassDocument_html_a0245a816ccb5208a20818ec51a74845d"><div class="ttname"><a href="classDocument.html#a0245a816ccb5208a20818ec51a74845d">Document::deleteFigure</a></div><div class="ttdeci">bool deleteFigure(std::shared_ptr&lt; Figure &gt; figure)</div><div class="ttdoc">deleteFigure - Удаление графического примитива.</div><div class="ttdef"><b>Definition</b> Document.cpp:27</div></div>
+<div class="ttc" id="aclassDocument_html_a048d18337dca2bf0772568f8534bc859"><div class="ttname"><a href="classDocument.html#a048d18337dca2bf0772568f8534bc859">Document::exportDocument</a></div><div class="ttdeci">bool exportDocument()</div><div class="ttdoc">exportDocument - Функция сохранения текущего документа в файл. В функции происходит задание наименова...</div><div class="ttdef"><b>Definition</b> Document.cpp:13</div></div>
+<div class="ttc" id="aclassDocument_html_a5574b529059aa25bd70f1fab9bddd7bb"><div class="ttname"><a href="classDocument.html#a5574b529059aa25bd70f1fab9bddd7bb">Document::importDocument</a></div><div class="ttdeci">bool importDocument()</div><div class="ttdoc">importDocument - Функция загрузки документа. Внутри функции происходит выбор и открфтие файла.</div><div class="ttdef"><b>Definition</b> Document.cpp:8</div></div>
+<div class="ttc" id="aclassDocument_html_a5b873f0bde5b1425cf47c24efffc6658"><div class="ttname"><a href="classDocument.html#a5b873f0bde5b1425cf47c24efffc6658">Document::createRectangle</a></div><div class="ttdeci">bool createRectangle(int i, int j, double a, double b)</div><div class="ttdoc">createRectangle - Создание графического примитива типа Прямоугольник</div><div class="ttdef"><b>Definition</b> Document.cpp:45</div></div>
+<div class="ttc" id="aclassDocument_html_abc9605ac5759cc1d11327ba5e03d40fe"><div class="ttname"><a href="classDocument.html#abc9605ac5759cc1d11327ba5e03d40fe">Document::setBorderColor</a></div><div class="ttdeci">bool setBorderColor(std::shared_ptr&lt; Figure &gt; figure, std::string color)</div><div class="ttdoc">setBorderColor - Установить цвет границы фигуры</div><div class="ttdef"><b>Definition</b> Document.cpp:67</div></div>
+<div class="ttc" id="aclassDocument_html_abda10b520a97e53125b4362fe08eb58a"><div class="ttname"><a href="classDocument.html#abda10b520a97e53125b4362fe08eb58a">Document::setBorderWidth</a></div><div class="ttdeci">bool setBorderWidth(std::shared_ptr&lt; Figure &gt; figure, int width)</div><div class="ttdoc">setBorderWidth - Задать толщину границы</div><div class="ttdef"><b>Definition</b> Document.cpp:73</div></div>
+<div class="ttc" id="aclassDocument_html_abf59117fcdf74e86ef678d7251634623"><div class="ttname"><a href="classDocument.html#abf59117fcdf74e86ef678d7251634623">Document::createCircle</a></div><div class="ttdeci">bool createCircle(int i, int j, double r)</div><div class="ttdoc">createCircle - Создание графического примитива типа Круг</div><div class="ttdef"><b>Definition</b> Document.cpp:53</div></div>
+<div class="ttc" id="aclassDocument_html_ac5d0870b046773b3e8231f2228294749"><div class="ttname"><a href="classDocument.html#ac5d0870b046773b3e8231f2228294749">Document::createSquare</a></div><div class="ttdeci">bool createSquare(int i, int j, double a)</div><div class="ttdoc">createSquare - Создание графического примитива типа Квадрат</div><div class="ttdef"><b>Definition</b> Document.cpp:37</div></div>
+<div class="ttc" id="aclassDocument_html_acdbcbe550084e8c20f4f67eb229ad66a"><div class="ttname"><a href="classDocument.html#acdbcbe550084e8c20f4f67eb229ad66a">Document::Document</a></div><div class="ttdeci">Document()</div><div class="ttdoc">Document - Конструктор нового (пустого) документа</div><div class="ttdef"><b>Definition</b> Document.cpp:3</div></div>
+<div class="ttc" id="aclassDocument_html_add86f1086a9773d656c4f796ad88ab9c"><div class="ttname"><a href="classDocument.html#add86f1086a9773d656c4f796ad88ab9c">Document::addFigure</a></div><div class="ttdeci">bool addFigure(std::shared_ptr&lt; Figure &gt; new_figure)</div><div class="ttdoc">addFigure - Добавление в документ нового графического примитива.</div><div class="ttdef"><b>Definition</b> Document.cpp:18</div></div>
+<div class="ttc" id="aclassDocument_html_adeb380ea33fd6a83b7a8b9522b7b43bd"><div class="ttname"><a href="classDocument.html#adeb380ea33fd6a83b7a8b9522b7b43bd">Document::setFigureColor</a></div><div class="ttdeci">bool setFigureColor(std::shared_ptr&lt; Figure &gt; figure, std::string color)</div><div class="ttdoc">setFigureColor - Установить цвет фигуры</div><div class="ttdef"><b>Definition</b> Document.cpp:61</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

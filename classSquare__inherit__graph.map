@@ -1,0 +1,7 @@
+<map id="Square" name="Square">
+<area shape="rect" id="Node000001" title="The Square class &#45; Класс графического примитива типа Квадрат" alt="" coords="21,592,109,697"/>
+<area shape="rect" id="Node000002" href="$classRectangle.html" title="The Rectangle class &#45; Класс графического примитива типа Прямоугольник" alt="" coords="21,359,110,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,559,68,592,63,592,63,559"/>
+<area shape="rect" id="Node000003" href="$classFigure.html" title="The Figure class &#45; Базовый класс графического примитива" alt="" coords="5,5,125,311"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,326,68,359,63,359,63,326"/>
+</map>

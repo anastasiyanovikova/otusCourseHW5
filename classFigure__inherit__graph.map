@@ -1,0 +1,9 @@
+<map id="Figure" name="Figure">
+<area shape="rect" id="Node000001" title="The Figure class &#45; Базовый класс графического примитива" alt="" coords="52,5,172,311"/>
+<area shape="rect" id="Node000002" href="$classCircule.html" title="The Circule class &#45; Класс графического примитива типа Круг" alt="" coords="5,389,101,514"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,326,68,389,63,388,76,325"/>
+<area shape="rect" id="Node000003" href="$classRectangle.html" title="The Rectangle class &#45; Класс графического примитива типа Прямоугольник" alt="" coords="126,359,215,544"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,325,155,358,150,359,143,326"/>
+<area shape="rect" id="Node000004" href="$classSquare.html" title="The Square class &#45; Класс графического примитива типа Квадрат" alt="" coords="127,592,215,697"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="173,559,173,592,168,592,168,559"/>
+</map>
